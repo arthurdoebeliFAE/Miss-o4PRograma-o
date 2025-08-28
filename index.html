@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarketFinder - Turismo em Foz do Iguaçu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>🌎 MarketFinder Turismo Local</h1>
+    <p>Explore o melhor de Foz do Iguaçu com experiências inesquecíveis!</p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="🔍 Buscar serviços pelo nome...">
+  </div>
+
+  <nav>
+    <button class="filter-btn active" data-category="Todos">Todos</button>
+    <button class="filter-btn" data-category="Guias Turísticos">Guias Turísticos</button>
+    <button class="filter-btn" data-category="Passeios de Bike">Passeios de Bike</button>
+    <button class="filter-btn" data-category="Aulas de Surf">Aulas de Surf</button>
+    <button class="filter-btn" data-category="Trilhas Guiadas">Trilhas Guiadas</button>
+  </nav>
+
+  <main id="services-container">
+    <!-- Os cards serão carregados via JS -->
+  </main>
+
+  <footer>
+    <p>© 2025 MarketFinder - Turismo em Foz do Iguaçu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
